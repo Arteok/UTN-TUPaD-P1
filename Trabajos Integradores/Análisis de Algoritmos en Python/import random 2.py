@@ -162,10 +162,6 @@ if __name__ == "__main__":
             print(f"El primer numero de la lista es {lista_ordenada_nlogn[0]} y es demaciado grande.")
 
             
-        """ operacion_exponencial(n)  
-        print(f"O(2ⁿ)       - Fibonacci recursivo (n=20): {time.time() - inicio:.8f} segundos") """
-        
-
         # O(n!)
         """ if n <= 100:
             inicio = time.time()
