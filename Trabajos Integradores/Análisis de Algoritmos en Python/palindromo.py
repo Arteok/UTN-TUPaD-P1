@@ -1,14 +1,17 @@
 import time
 
 # Funciones de verificación de palíndromos
-def es_palindromo_rec(palabra):
+
+# Algoritmo 1: Recursivo
+def es_palindromo_recursiva(palabra):
     palabra = palabra.lower().replace(" ", "")
     if len(palabra) <= 1:
         return True
     if palabra[0] != palabra[-1]:
         return False
-    return es_palindromo_rec(palabra[1:-1])
+    return es_palindromo_recursiva(palabra[1:-1])
 
+# Algoritmo 2: Slicing
 def es_palindromo_slice(palabra):
     palabra = palabra.lower().replace(" ", "")
     return palabra == palabra[::-1]
@@ -42,7 +45,7 @@ for i in range(1, 11):  # 10 iteraciones
     palabras = palabras[:n]  # Aseguramos tamaño exacto
     
     # Medición
-    tiempo_rec = medir_tiempos(es_palindromo_rec, palabras)
+    tiempo_rec = medir_tiempos(es_palindromo_recursiva, palabras)
     tiempo_slice = medir_tiempos(es_palindromo_slice, palabras)
     
     # Cálculo de diferencia absoluta y relativa
