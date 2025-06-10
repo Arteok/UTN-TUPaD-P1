@@ -17,3 +17,6 @@ Se mide el tiempo de ejecución de ambos algoritmos a medida que crece el tamañ
 - En cada iteración se duplica el tamaño de la lista hasta alcanzar 10 veces el tamaño inicial.
 - Se mide el tiempo total de ejecución de cada algoritmo para la lista en cada iteración.
 - Se imprime la diferencia absoluta y relativa entre los dos métodos.
+
+## 🎥 Video de Presentación
+[![Ver en YouTube](https://img.youtube.com/vi/NFsuYn1qK8E/0.jpg)](https://www.youtube.com/watch?v=NFsuYn1qK8E)
