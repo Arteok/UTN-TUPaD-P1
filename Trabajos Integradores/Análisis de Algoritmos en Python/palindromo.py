@@ -9,19 +9,19 @@ def es_palindromo_recursiva(palabra):
         return True
     if palabra[0] != palabra[-1]:
         return False
-    return es_palindromo_recursiva(palabra[1:-1])
+    return es_palindromo_recursiva(palabra[1:-1]) # Big O = n²
 
 # Algoritmo 2: Slicing
 def es_palindromo_slice(palabra):
     palabra = palabra.lower().replace(" ", "")
-    return palabra == palabra[::-1]
+    return palabra == palabra[::-1] #Big  O = n
 
 # Función para medir tiempos
 def medir_tiempos(funcion, palabras):
-    inicio = time.perf_counter()  # Mayor precisión
+    inicio = time.time()  # Mayor precisión
     for palabra in palabras:
         funcion(palabra)
-    fin = time.perf_counter()
+    fin = time.time()
     return fin - inicio
 
 # Lista base de palabras (10 palíndromos + 10 no palíndromos)
