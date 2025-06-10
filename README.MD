@@ -14,5 +14,6 @@ Este repositorio almacena todas los trabajos prácticos realizados durante la cu
 - Los archivos de código fuente (`.py`) incluyen comentarios y estructura adecuada.  
 - Se busca mantener un código limpio, ordenado y bien documentado.  
 
-> 
+Video YouTuve
+> https://www.youtube.com/watch?v=NFsuYn1qK8E
 
