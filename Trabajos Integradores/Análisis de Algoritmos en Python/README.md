@@ -19,4 +19,4 @@ Se mide el tiempo de ejecución de ambos algoritmos a medida que crece el tamañ
 - Se imprime la diferencia absoluta y relativa entre los dos métodos.
 
 ## 🎥 Video de Presentación
-[![Ver en YouTube](https://img.youtube.com/vi/NFsuYn1qK8E/0.jpg)](https://www.youtube.com/watch?v=NFsuYn1qK8E)
+[![Ver en YouTube](https://www.youtube.com/watch?v=QZO8DB_ybj8/0.jpg)](https://www.youtube.com/watch?v=QZO8DB_ybj8)
